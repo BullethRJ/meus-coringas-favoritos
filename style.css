@@ -224,7 +224,7 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
 
     .cabecalho {
         padding: 2.35rem 0.5rem;
@@ -240,10 +240,12 @@ body {
 
     .paragrafo-heath-ledger {
         display: block;
+        text-align: center;
     }
 
     .heath-ledger-foto {
         margin-top: 4rem;
+        margin-left: 0;
         width: 100%;
         float: none;
     }
@@ -254,28 +256,32 @@ body {
 
     .paragrafo-joaquin-phoenix {
         display: block;
-        margin-bottom: 6rem;
+        text-align: center;
     }
 
     .foto-joaquin-phoenix {
         margin-top: 2.5rem;
-        width: 100%;
+        margin-left: 0;
+        width: 95%;
+        float: none;
     }
 
     .titulo-jared-leto {
+        text-align: center;
         margin: 0 1rem 0 6rem;
     }
     
     .paragrafo-jared-leto {
+        text-align: center;
         display: block;
         margin-left: 6rem;
-        margin-bottom: 23rem; 
     }
     
     .foto-jared-leto {
         margin-top: 1.5rem;
         margin-left: 1rem;
-        width: 100%;
+        width: 80%;
+        float: none;
     }
   }
   
