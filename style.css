@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Flavors&family=Montserrat:ital,wght@1,300&family=Orbitron:wght@500&family=Tilt+Warp&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+:root {
+        /*tipo de fonte da pagina*/
+    --fonte-titulos: 'Flavors', cursive;
+    --fonte-paragrafos: 'Permanent Marker', cursive;
+
+            /*body*/
+    --branco-fundo-pagina: #fffffd;
+
+        /*cabecalho*/
+    --verde-claro-cabecalho: #109E00;
+    --verde-escuro-cabecalho: #084D00;
+    --roxo-link-cabecalho: #91009E;
+    --roxo-link-hover-cabecalho: #7C0087;
+
+        /*Heath Leadger*/
+    --roxo-heath-ledger: #1D1039;
+    --cabecalho-heat-ledger-amarelo-verde: #B2BD60, #141D01;
+    --paragrafo-vermelho-heath-leadger: #6E2514;
+
+        /*Joaquin Phoenix*/
+    --cabecalho-joaquin-phoenix-verde-claro-escuro: #BDCD64, #06271a;
+    --roupa-joaquin-phoenix: #A2390D, #e59002, #053B33;
+    --paragrafo-joaquin-phoenix: #76211A;
+    --borda-foto-joaquin-phoenix: #067375;
+        /*Jared Leto*/
+        --fundo-jared-leto: #D4CED8, #65488D, #0F0B15;
+        --cabecalho-jared-leto: #9CAF93, #3E513D;
+        --paragrafo-jared-leto: #85303B;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(IMAGENS\ DO\ CORINGA/hahaha.jpeg);
+}
+
+.cabecalho {
+    border: solid 1px;
+    padding: 2.35rem;
+    background: linear-gradient(var(--verde-claro-cabecalho),var(--verde-escuro-cabecalho) ) ;
+}
+
+.links {
+    color: var(--roxo-link-cabecalho);
+    font-family: var(--fonte-titulos);
+    text-decoration: none;
+    margin-left: 1%;
+    font-size: 1.3rem;
+}
+
+.links:hover {
+    color: var(--roxo-link-hover-cabecalho);
+}
+
+.primeira-imagem {
+    width: 100%;
+}
+
+.container-titulo {
+    bottom: 0;
+    position: relative;
+    bottom: 5rem;
+    background: linear-gradient( #070707, #4D3E4B);
+    margin: 0;
+    width: 100%;
+    margin-bottom: 6rem;
+    border-bottom: solid 1px;
+}
+
+.titulo-principal {
+    padding: 2.35rem;
+    background: linear-gradient(to bottom, var(--verde-claro-cabecalho), black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--fonte-titulos);
+    text-align: center;
+}
+
+.primeira-strong {
+    background: linear-gradient(to bottom, #ca2122, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container-heath-ledger {
+    border: solid 1px;
+    background: linear-gradient( var(--roxo-heath-ledger), var(--roxo-heath-ledger), #0e151b, #0A1606);
+    padding: 5rem 5rem 5rem 0;
+    margin: 0 0 12rem ;
+}
+
+.titulo-heath-ledger {
+    border-bottom: dashed 0.2rem #b7bab3;
+    margin: 0 65rem 0 35rem;
+    background: linear-gradient(var(--cabecalho-heat-ledger-amarelo-verde));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--fonte-titulos);
+    text-align: center;
+    padding-bottom: 1rem ;
+    font-size: 2rem;
+}
+
+.paragrafo-heath-ledger {
+    text-decoration: underline;
+    color: var(--paragrafo-vermelho-heath-leadger);
+    font-size: 1.3rem;
+    font-family: var(--fonte-paragrafos);
+    display: flex;
+    margin-left: 5rem;
+    text-align: center;
+}
+
+.heath-ledger-foto {
+    box-shadow: black 0 0 50px;
+    border-radius: 12%;
+    margin-left: 5%;
+    width: 29%;
+    float: right;
+}
+
+.container-joaquin-phoenix {
+    border: solid 0.1px;
+    background: linear-gradient(var(--roupa-joaquin-phoenix));
+    padding: 4rem 5rem 7.5rem 0;
+    margin: 12.5rem 0 12.5rem;
+}
+
+.titulo-joaquin-phoenix {
+    text-align: center;
+    border-bottom: dotted 0.4rem #F8FADD;
+    background: linear-gradient(var(--cabecalho-joaquin-phoenix-verde-claro-escuro));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 63rem 0 33rem;
+    font-family: var(--fonte-titulos);
+    text-align: center;
+    padding-bottom: 1rem ;
+    font-size: 2rem;
+}
+
+.paragrafo-joaquin-phoenix {
+    text-decoration: underline;
+    color: var(--paragrafo-joaquin-phoenix);
+    font-size: 1.3rem;
+    font-family: var(--fonte-paragrafos);
+    display: flex;
+    margin-left: 5rem;
+    text-align: center;
+}
+
+.foto-joaquin-phoenix {
+    border: solid var(--borda-foto-joaquin-phoenix);
+    border-radius: 25%;
+    margin-left: 5%;
+    width: 29%;
+    float: right;
+}
+
+.container-jared-leto {
+    border: solid 3px ;
+    background: linear-gradient(var(--fundo-jared-leto));
+    padding: 5rem 5rem 3rem 0;
+    margin: 0 0 13rem 0;
+}
+
+.titulo-jared-leto {
+    text-align: center;
+    border: dashed 5px;
+    background: linear-gradient(var(--cabecalho-jared-leto));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 63rem 0 33rem;
+    font-family: var(--fonte-titulos);
+    text-align: center;
+    padding: 0.5rem ;
+    font-size: 2rem;
+}
+
+.paragrafo-jared-leto {
+    text-decoration: underline;
+    color: var(--paragrafo-jared-leto);
+    font-size: 1.3rem;
+    font-family: var(--fonte-paragrafos);
+    display: flex;
+    margin-left: 35rem;
+    align-items: center;
+}
+
+.foto-jared-leto {
+    border: double 10px black;
+    width: 100%;
+    border-radius: 3%;
+    margin-left: 38.5rem;
+    width: 29%;
+    float: right;
+}
+
+.coringa-camera {
+    width: 100%;
+    margin: 0;
+    display: block;
+    border-top: solid 3px;
+}
+
+.container-fim {
+    background: linear-gradient(100deg, #000000, #435A6E);
+}
+
+.paragrafo-rodape {
+    margin: 0;
+    text-align: center;
+    padding: 2.35rem;
+    border: solid 1px;
+    font-family: var(--fonte-paragrafos);
+    background: linear-gradient(to bottom, #C3161E, #460D14);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 768px) {
+
+    .titulo-heath-ledger {
+        margin: 0 1rem 0 6rem;
+    }
+
+    .paragrafo-heath-ledger {
+        display: block;
+    }
+
+    .heath-ledger-foto {
+        margin-top: 4rem;
+        width: 100%;
+        float: none;
+    }
+
+    .titulo-joaquin-phoenix {
+        margin: 0 1rem 0 6rem;
+    }
+
+    .paragrafo-joaquin-phoenix {
+        display: block;
+        margin-bottom: 6rem;
+    }
+
+    .foto-joaquin-phoenix {
+        margin-top: 2.5rem;
+        width: 100%;
+    }
+
+    .titulo-jared-leto {
+        margin: 0 1rem 0 6rem;
+    }
+    
+    .paragrafo-jared-leto {
+        display: block;
+        margin-left: 6rem;
+        margin-bottom: 23rem; 
+    }
+    
+    .foto-jared-leto {
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+        width: 100%;
+    }
+  }
+  
+  
