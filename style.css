@@ -226,6 +226,14 @@ body {
 
 @media (max-width: 768px) {
 
+    .cabecalho {
+        padding: 2.35rem 0.5rem;
+    }
+
+    .links {
+        font-size: 15px;
+    }
+
     .titulo-heath-ledger {
         margin: 0 1rem 0 6rem;
     }
